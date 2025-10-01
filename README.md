@@ -1,2 +1,2 @@
-# Mahab_Club_App
-Software starting with room booking V2
+# Club Booking – Static Web App (GitHub Pages)
+Upload contents to a repo, enable Pages, done.

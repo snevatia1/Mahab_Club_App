@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin – Club Booking</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="titles">
+      <h1>Admin Console</h1>
+      <p class="subtitle">Approvals • Cancellations • Modifications</p>
+    </div>
+    <nav>
+      <a href="../" class="button ghost">Back to App</a>
+      <a href="./promotions.html" class="button ghost">Promotions</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Pending Requests (Demo)</h2>
+      <div class="actions">
+        <button id="btnLoad" class="button">Load</button>
+        <button id="btnClear" class="button ghost">Clear</button>
+      </div>
+      <div id="out" class="table-wrap"></div>
+      <p class="small muted" style="margin-top:8px">
+        Note: This demo reads the last submission stored in the browser (<code>
